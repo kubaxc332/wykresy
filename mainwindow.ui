@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>884</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="circleChart_Btn">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>330</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pokaż wykres kołowy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="barChart_Btn">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>370</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pokaż wykres słupkowy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load_Btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Załaduj</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showData_Btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pokaż dane</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lineChart_Btn">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>290</y>
+      <width>151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pokaż wykres punktowy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_Btn">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wyczyść</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>441</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>256</width>
+      <height>192</height>
+     </size>
+    </property>
+    <property name="rowCount">
+     <number>20</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QCheckBox" name="col4_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>240</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolumna 4</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="col1_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>180</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolumna 1</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="col2_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>200</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolumna 2</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="col3_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>220</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kolumna 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="apply_Btn">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>180</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zastosuj</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>100</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wybierz kolumny do przedstawienia w formie wykresów</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>884</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlik">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionFileExplorer"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuOpcje">
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <addaction name="actionLoad_Data"/>
+    <addaction name="actionSelectColumns"/>
+    <addaction name="actionTypeOfCharts"/>
+    <addaction name="actionClear"/>
+   </widget>
+   <widget class="QMenu" name="menuPomoc">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionTutorial"/>
+   </widget>
+   <widget class="QMenu" name="menuInformacje">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionAboutProgram"/>
+    <addaction name="actionQT"/>
+    <addaction name="actionGitHub"/>
+    <addaction name="actionReport_a_Problem"/>
+   </widget>
+   <addaction name="menuPlik"/>
+   <addaction name="menuOpcje"/>
+   <addaction name="menuPomoc"/>
+   <addaction name="menuInformacje"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFileExplorer"/>
+   <addaction name="actionClose"/>
+   <addaction name="separator"/>
+   <addaction name="actionLoad_Data"/>
+   <addaction name="actionSelectColumns"/>
+   <addaction name="actionTypeOfCharts"/>
+   <addaction name="actionClear"/>
+   <addaction name="separator"/>
+   <addaction name="actionReport_a_Problem"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionClose">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/close.ico</normaloff>:/icons/icons/close.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionFileExplorer">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/explorer.ico</normaloff>:/icons/icons/explorer.ico</iconset>
+   </property>
+   <property name="text">
+    <string>File Explorer</string>
+   </property>
+  </action>
+  <action name="actionSelectColumns">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/table.svg</normaloff>:/icons/table.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Select Columns</string>
+   </property>
+  </action>
+  <action name="actionTypeOfCharts">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/chartinfo.ico</normaloff>:/icons/icons/chartinfo.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Type of charts</string>
+   </property>
+  </action>
+  <action name="actionAboutProgram">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/info.ico</normaloff>:/icons/icons/info.ico</iconset>
+   </property>
+   <property name="text">
+    <string>About program</string>
+   </property>
+  </action>
+  <action name="actionQT">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/qt.ico</normaloff>:/icons/icons/qt.ico</iconset>
+   </property>
+   <property name="text">
+    <string>QT</string>
+   </property>
+  </action>
+  <action name="actionGitHub">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/github.ico</normaloff>:/icons/icons/github.ico</iconset>
+   </property>
+   <property name="text">
+    <string>GitHub</string>
+   </property>
+  </action>
+  <action name="actionLoad_Data">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/open.ico</normaloff>:/icons/icons/open.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Load data</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/clear.ico</normaloff>:/icons/clear.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Clear </string>
+   </property>
+  </action>
+  <action name="actionReport_a_Problem">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/report.ico</normaloff>:/icons/report.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Report a  problem</string>
+   </property>
+  </action>
+  <action name="actionTutorial">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/tutorial.ico</normaloff>:/icons/icons/tutorial.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Tutorial</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

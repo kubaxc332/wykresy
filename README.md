@@ -1,1 +1,1 @@
-# wykresy
+# WykresyQT
