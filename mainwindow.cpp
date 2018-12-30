@@ -557,8 +557,8 @@ void MainWindow::on_apply_Btn_clicked()
 
 void MainWindow::on_actionClose_triggered()
 {
-    statusBar()->showMessage("App will be killed in 5 seconds...");
-        QTimer::singleShot(5000,this,SLOT(quitApp()));
+    statusBar()->showMessage("Aplikacja zostanie zamknieta po 4s");
+        QTimer::singleShot(4000,this,SLOT(quitApp()));
 }
 
 void MainWindow::on_actionFileExplorer_triggered()
